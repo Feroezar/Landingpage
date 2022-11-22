@@ -1,0 +1,43 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img1{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    margin-bottom: 20px;
+}
+.my{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.fog{
+    text-align: center;
+    vertical-align: text-bottom;
+    margin-top: 80px !important;
+}
+.imgb{
+    width: 200px;
+    height: 200px !important;
+    display: flex;
+}
+.lol{
+    background-color: rgb(217, 255, 0);
+    border-radius: 10%;
+    text-align: center;
+    padding: 5px;
+}
+.chi{
+    margin-left: 10px;
+}
+footer{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.us{
+    text-decoration: none;
+}
+.resume{
+    text-align: end;
+}

@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fero Ezar Felix</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <link rel="stylesheet" href="Assets/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-warning bg-opacity-75 text-white">
+  <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning bg-opacity-75 text-white sticky-top">
         <div class="container-fluid">
-          <a class="navbar-brand text-Dark" href="#">Kyuuko</a>
+          <a class="navbar-brand text-Dark" href="#">Fero Ezar Felix</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -27,13 +28,13 @@
           <div id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-white">
               <li class="nav-item">
-                <a class="nav-link active text-Dark" aria-current="page" href="#">Home</a>
+                <a class="nav-link active text-Dark" aria-current="page" href="Index.html"><i class="bi bi-house"></i> Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-Dark" href="#portofolio">Contac US</a>
+                <a class="nav-link text-Dark" href="#contacus"><i class="bi bi-telephone-inbound"></i> Contac US</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-Dark" href="#portofolio">Resume</a>
+                <a class="nav-link text-Dark" href="Resume.html"><i class="bi bi-person-circle"></i> Resume</a>
               </li>
               <li class="nav-item dropdown">
                 <a
@@ -44,13 +45,13 @@
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Download Materi
+                <i class="bi bi-cloud-download-fill"></i> Download Materi
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#"><i class="bi bi-filetype-html"></i> Modul HTML</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="modul/01-02 - pengenalan html.pdf"><i class="bi bi-filetype-html"></i> Modul HTML</a></li>
+                  <li><a class="dropdown-item" href="modul/05-06 - CSS.pdf"><i class="bi bi-filetype-css"></i> Modul CSS</a></li>
                   <li><hr class="dropdown-divider" /></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="modul/11-12 Bootstrap.pdf"><i class="bi bi-bootstrap-reboot"></i> Modul Bootstrap</a></li>
                 </ul>
               </li>
               <!-- <li class="nav-item">
@@ -58,26 +59,143 @@
               </li> -->
             </ul>
       </nav>
+      <!-- header -->
       <header class="bg-primary bg-opacity-75 bg-opacity-10">
-        <div class="container-fluid d-flex flex-column align-items-center p-4">
-        
+        <div class="container-fluid d-flex flex-column align-items-center p-4">        
           <div class="row">
-            <div class="col-md-2"></div>
-            <div class="col-md-8">
-              <div class="row">
-                <div class="col-md"></div>
-                <div class="row">
-                  
-                </div>
-              </div>
-            </div>
-            <div class="col-md-2"><img src="img/headerimg.jpeg" alt="" class="rounded-circle mt img1" />
-            </div>
-          </div>
-        
-         
+            <div class="col-md-1"></div>
+            <div class="col-md-8 fog"><h2 class="kyuuko1"><i class="bi bi-joystick text-light"></i> Fero Company</h2></div>
+            <div class="col-md-3"><img src="img/meFoto.jpeg" alt="" class="rounded-circle mt img1 " /></div>
+          </div>     
         </div>
       </header>
+      <!-- About -->
+      <section id="about" class="bg-secondary bg-opacity-10">
+        <div class="container-fluid d-flex flex-column align-items-center">
+          <h3>= = = About Me = = =</h3>
+        </div>
+        <div class="row d-flex flex-column align-items-center">
+          <div class="col-md-6"></div>
+          <div class="col-md-6">
+            <p> Hallo Teman, perkenalkan nama saya Fero Ezar Felix bisa dipanggil Fero. keseharian saya hanya pergi kekampus, pulang bermain game, belajar, dan tidur. 
+            laman ini kalian bisa mengakses beberapa resume saya, modul HTML, dan contac us. jurusan saya ASE dan pemilik web ini.</p>
+          </div>
+        </div>
+        <!-- BLOG -->
+      </section>
+      <section id="Blog" class="bg-info bg-opacity-25">
+        <div class="container-fluid d-flex flex-column align-items-center">
+          <h3 class="my">= = = My Blog = = =</h3>
+        </div>
+        <div class="row">
+          <div class="col-md-2"></div>
+          <div class="col-md-2"><img src="img/Ghost.jpg" alt="" class="img-fluid imgb"></div>
+          <div class="col-md-6">
+            <h5><br>Call Of Duty Modern Warfare 2</h5>
+            <br><span class="lol">11/17/2022</span> <span class="text-secondary"> Created By : FeroEzar </span>
+            <p>Pada Juli 2022, Task Force 141 telah bekerja di bawah komando Jenderal Shepherd melakukan serangan terhadap pasukan Iran yang didukung Rusia. Ketika serangan rudal membunuh jenderal Iran Ghorbrani saat pertemuan untuk menyepakati transfer senjata di Al Mazrah, komandan keduanya, Mayor Pasukan Quds Hassan Zyani. .
+             [ <a href="detailblog1.html">Baca Selengkapnya</a> ]
+            </p>
+            <hr>
+          </div>
+          <div class="col-md-2"></div>
+        </div>
+        <div class="row">
+          <div class="col-md-2"></div>
+          <div class="col-md-2"><img src="img/GodOfwar.jpg" alt="" class="img-fluid imgb"></div>
+          <div class="col-md-6">
+            <h5><br>God Of War Ragnarok</h5>
+            <br><span class="lol">11/17/2022</span> <span class="text-secondary"> Created By : FeroEzar </span>
+            <p>God of War Ragnarök adalah game aksi-petualangan yang dikembangkan oleh Santa Monica Studio dan diterbitkan oleh Sony Interactive Entertainment. Ini dirilis di seluruh dunia pada 9 November 2022, untuk PlayStation 4 dan PlayStation 5, menandai rilis lintas generasi pertama dalam seri God of War.. .
+              [ <a href="detailblog2.html">Baca Selengkapnya</a> ]
+            </p>
+            <hr>
+          </div>
+          <div class="col-md-2"></div>
+        </div>
+      </section>
+      <!-- Contac us -->
+      <section id="contacus" class="bg-secondary bg-opacity-10">
+        <div class="container-fluid d-flex flex-column align-items-center">
+          <h3 class="my">= = = Contac Us = = =</h3>
+<form action="#" method="get">       
+        </div>
+        <div class="mb-3 row">
+          <div class="col-md-3 chi"></div>
+          <div class="col-md-2">Email</div>
+          <div class="col-md">
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nama@example.com">
+          </div>
+          <div class="col-md-2"></div>
+        </div>
+        <div class="mb-3 row">
+          <div class="col-md-3 chi"></div>
+          <div class="col-md-2">Nama Lengkap</div>
+          <div class="col">
+            <input class="form-control" type="text" placeholder="nama" aria-label="default input example">
+          </div>
+          <div class="col-md-2"></div>
+        </div>
+        <div class="mb-3 row">
+          <div class="col-md-3 chi"></div>
+          <div class="col-md-2">Informasi</div>
+          <div class="col-md">
+            <select class="form-select" aria-label="Default select example">
+            <option selected>Silahkan Pilih</option>
+            <option value="1">sharing artikel</option>
+            <option value="2">penawaran kerja</option>
+            <option value="3">lain-lain</option>
+          </select>
+          </div>
+          <div class="col-md-2"></div>
+        </div>
+        <div class="mb-3 row">
+          <div class="col-md-3 chi"></div>
+          <div class="col-md-2">Keterangan</div>
+          <div class="col-md">
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+          </div>
+          <div class="col-md-2"></div>
+        </div>
+        <div class="mb-3 row">
+          <div class="col-md-3"></div>
+          <div class="col-md-2"></div>
+          <div class="col-md-2 d-grid gap-2 d-md-block" style="margin-left: 10px;">
+            <button class="btn btn-primary" type="button"><i class="bi bi-save2"></i> Simpan</button>
+            <button class="btn btn-secondary" type="reset"><i class="bi bi-backspace-fill"></i> Batal</button>
+          </div>
+          <div class="col-md-1"></div>
+        </div>
+      </section>
+</form>
+      <!-- footer -->
+      <footer id="kaki" class="container-fluid bg-primary bg-opacity-75 bg-opacity-10 text-white">
+        <div class="mb-3 row">
+          <div class="col-md-2"></div>
+          <div class="col-md-7"><b>Head Office :</b></div>
+          <div class="col-md-2"><b>Social Media</b></div>
+          <div class="col-md-2"></div>
+        </div>
+        <div class="mb-2 row">
+          <div class="col-md-2"></div>
+          <div class="col-md-7">Jalan Raya Sidojangkung, Menganti Satelit indah Blok DN-08</div>
+          <div class="col-md-2"><a href="https://wa.me/082337034392" class="us text-white" target="_blank"><i class="bi bi-whatsapp"></i> Whatsapp</a></div>
+          <div class="col-md-2"></div>
+        </div>
+        <div class="mb-2 row">
+          <div class="col-md-2"></div>
+          <div class="col-md-7">Telepon : 0823-3703-4392</div>
+          <div class="col-md-2"><a href="https://www.instagram.com/kyuuko.ch/" class="us text-white" target="_blank"><i class="bi bi-instagram"></i> Instagram</a></div>
+          <div class="col-md-2"></div>
+        </div>
+        <div class="mb-2 row">
+          <div class="col-md-2"></div>
+          <div class="col-md-7">Email : ferofelix123@gmail.com</div>
+          <div class="col-md-2"><a href="https://www.facebook.com/fero.e.felix.1" class="us text-white" target="_blank"><i class="bi bi-facebook"></i> Facebook</a></div>
+          <div class="col-md-2"></div>
+        </div>
+        
+      </footer>     
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
